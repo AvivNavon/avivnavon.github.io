@@ -18,8 +18,8 @@ author_profile: true
 [Ethan Fetaya](http://www.eng.biu.ac.il/fetayae/)
 <br>
 [[paper]](https://arxiv.org/abs/1812.03662) 
-[[project page]](https://avivnavon.github.io/auxilearn)
-[[code]](https://github.com/AvivNavon/AuxiLearn) 
+[[project page]](https://avivnavon.github.io/AuxiLearn/)
+[[code]](https://github.com/AvivNavon/AuxiLearn)
 [[bibtex]]()
 </span>
 
