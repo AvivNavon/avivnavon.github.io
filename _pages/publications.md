@@ -12,10 +12,11 @@ author_profile: true
 <br>
 <span style="font-size:.8em;">
 [Aviv Navon<a>\*</a>](https://chechiklab.biu.ac.il/~anavon/), 
-[Idan Achituve<a>\*</a>](https://chechiklab.biu.ac.il/~achitui/), 
-[Haggai Maron](https://haggaim.github.io/), 
-[Gal Chechik](https://chechiklab.biu.ac.il/~gal/), 
-[Ethan Fetaya](http://www.eng.biu.ac.il/fetayae/)
+[Idan Achituve<a>\*</a>](https://chechiklab.biu.ac.il/~achitui/),
+[Haggai Maron](https://haggaim.github.io/),
+[Gal Chechik†](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya†](http://www.eng.biu.ac.il/fetayae/)
+<br>(*,† equal contribution)
 <br>
 [[paper]](https://arxiv.org/abs/1812.03662) 
 [[project page]](https://avivnavon.github.io/AuxiLearn/)
