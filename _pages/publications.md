@@ -21,7 +21,7 @@ author_profile: true
 [[paper]](https://arxiv.org/abs/1812.03662) 
 [[project page]](https://avivnavon.github.io/AuxiLearn/)
 [[code]](https://github.com/AvivNavon/AuxiLearn)
-[[bibtex]]()
+[[bibtex]](https://chechiklab.biu.ac.il/~anavon/cite/auxilearn.bib)
 </span>
 
 ---
@@ -36,6 +36,5 @@ author_profile: true
 <br>
 [[paper]](https://arxiv.org/abs/1812.03662) 
 [[code]](https://github.com/AvivNavon/MrRCE)
-[[bibtex]](https://avivnavon.github.io/bib/mrrce.bib)
-<!-- (https://chechiklab.biu.ac.il/~anavon/cite/mrrce.bib) -->
+[[bibtex]](https://chechiklab.biu.ac.il/~anavon/cite/mrrce.bib)
 </span>
