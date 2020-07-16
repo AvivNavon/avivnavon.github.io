@@ -1,132 +1,51 @@
----
-layout: project
-title: "AuxiLearn"
----
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-
-<!-- ======================================================================= -->
-<!-- <script src="http://www.google.com/jsapi" type="text/javascript"></script> -->
-<!-- <script type="text/javascript">google.load("jquery", "1.3.2");</script> -->
-<style type="text/css">
-    table {
-        margin-bottom: 5px;
-        margin-top: 5px;
-    }
-    body {
-        font-family: "Titillium Web", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        font-weight: 300;
-        font-size: 18px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-    }
-
-    h1 {
-        font-weight: 300;
-    }
-
-    .disclaimerbox {
-        background-color: #eee;
-        border: 1px solid #eeeeee;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-        padding: 20px;
-    }
-
-    video.header-vid {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-    }
-
-    img {
-        width: 100%
-    }
-
-    img.header-img {
-        height: 140px;
-        border: 1px solid black;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-    }
-
-    img.rounded {
-        border: 1px solid #eeeeee;
-        border-radius: 10px;
-        -moz-border-radius: 10px;
-        -webkit-border-radius: 10px;
-    }
-
-    a:link, a:visited {
-        color: #1367a7;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: #208799;
-    }
-
-    td.dl-link {
-        height: 160px;
-        text-align: center;
-        font-size: 22px;
-    }
-
-    .layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.35), /* The top layer shadow */ 5px 5px 0 0px #fff, /* The second layer */ 5px 5px 1px 1px rgba(0, 0, 0, 0.35), /* The second layer shadow */ 10px 10px 0 0px #fff, /* The third layer */ 10px 10px 1px 1px rgba(0, 0, 0, 0.35), /* The third layer shadow */ 15px 15px 0 0px #fff, /* The fourth layer */ 15px 15px 1px 1px rgba(0, 0, 0, 0.35), /* The fourth layer shadow */ 20px 20px 0 0px #fff, /* The fifth layer */ 20px 20px 1px 1px rgba(0, 0, 0, 0.35), /* The fifth layer shadow */ 25px 25px 0 0px #fff, /* The fifth layer */ 25px 25px 1px 1px rgba(0, 0, 0, 0.35); /* The fifth layer shadow */
-        margin-left: 10px;
-        margin-right: 45px;
-    }
-
-
-    .layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
-        box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.35), /* The top layer shadow */ 5px 5px 0 0px #fff, /* The second layer */ 5px 5px 1px 1px rgba(0, 0, 0, 0.35), /* The second layer shadow */ 10px 10px 0 0px #fff, /* The third layer */ 10px 10px 1px 1px rgba(0, 0, 0, 0.35); /* The third layer shadow */
-        margin-top: 5px;
-        margin-left: 10px;
-        margin-right: 30px;
-        margin-bottom: 5px;
-    }
-
-    .vert-cent {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    hr {
-        border: 0;
-        height: 1px;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-    }
-
-
-    #authors td {
-        padding-bottom: 5px;
-        padding-top: 30px;
-    }
-</style>
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Auxiliary Learning by Implicit Differentiation">
+    <meta name="author" content="
+    Aviv Navon, 
+    Idan Achituve, 
+    Haggai Maron, 
+    Gal Chechik,   
+    Ethan Fetaya"
+    >
 
-    <title>AuxiLearn</title>
-    <meta property="og:title" content="Auxiliary Learning by Implicit Differentiation"/>
+    <title>Auxiliary Learning by Implicit Differentiation</title>
+    <!-- Bootstrap core CSS -->
+    <!--link href="bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
 </head>
 
-<body>
-<br>
-<center>
-    <span style="font-size:36px">WIP<br>Auxiliary Learning by Implicit Differentiation</span>
-    <br><br>
+<!-- MathJax -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 
-    <span style="font-size:24px">Preprint. Under review.</span>
-    <br><br><br>
-    <table align=center>
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"></div>
+    <h1>*** WIP ***</h1>
+    <h2>Auxiliary Learning by Implicit Differentiation</h2>
+    <hr>
+    <p class="authors">
         <tr>
             <span style="font-size:24px"><a href="https://avivnavon.github.io/">Aviv Navon*</a><sup>1</sup></span> &nbsp;
             <span style="font-size:24px"><a href="https://chechiklab.biu.ac.il/~achitui/">Idan Achituve*</a><sup>1</sup></span>&nbsp;
@@ -136,11 +55,11 @@ title: "AuxiLearn"
             <span style="font-size:24px"><a href="https://chechiklab.biu.ac.il/">Gal Chechik<sup>†</sup></a><sup>1,2</sup></span> &nbsp;
             <span style="font-size:24px"><a href="http://www.eng.biu.ac.il/fetayae/">Ethan Fetaya<sup>†</sup></a><sup>1</sup></span> &nbsp;
         </tr>
-    </table>
+    </p>
 
-    <span style="font-size:18px"><sup>*</sup>Equally contributed</span>
-    <br><br>
-
+    <span style="font-size:18px"><sup>*,†</sup>Equally contributed</span>
+    <br>
+    <br>
     <table align=center>
         <tr>
             <td align=center>
@@ -154,55 +73,121 @@ title: "AuxiLearn"
             </td>
         </tr>
     </table>
+
+    <br>
     <br>
 
+    <div class="btn-group" role="group" aria-label="Top menu">
+        <a class="btn btn-primary" href="https://arxiv.org/abs/2007.02693">Paper</a>
+        <a class="btn btn-primary" href="https://github.com/AvivNavon/AuxiLearn">Code</a>
+    </div>
 
-<!--    <span style="font-size:24px">Preprint. Under review.</span>-->
+    
 
-    <table align=center>
-        <tr>
-            <td align=center>
-                <center>
-                    <span style="font-size:24px"><a href="https://arxiv.org/abs/2007.02693"> [Paper]</a></span>
-                </center>
-            </td>
-<!--            <td align=center>-->
-<!--                <center>-->
-<!--                        <span style="font-size:24px"><a href='https://www.dropbox.com/s/yh110evfjw3bwkf/ActionGraph.pdf?dl=0'> [Slides]</a></span>-->
-<!--                </center>-->
-<!--            </td>-->
+</div>
 
-            <td align=center>
-                <center>
-                        <span style="font-size:24px"><a href="https://github.com/AvivNavon/AuxiLearn"> [GitHub]</a></span>
-                </center>
-            </td>
-            <td align=center>
-                <center>
-                        <span style="font-size:24px"><a href=""> [Bibtex]</a></span>
-                </center>
-            </td>
-        </tr>
-    </table>
+<div class="container">
+    <div class="section">
+         <center><img src="/Users/avivnavon/Desktop/avivnavon.github.io/AuxiLearn/resources/framework.png" align="middle" style='max-width: 100%'> </center>
 
-</center>
-<!--<left>    <span style="font-size:18px"><sup>*</sup>Equally contributed</span> </left>-->
+            <!-- <iframe class='img' src="/Users/avivnavon/Desktop/avivnavon.github.io/AuxiLearn/resources/loss_landscape.gif"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+            <!-- -->
+        <hr>
+        <p>
+            Training with multiple auxiliary tasks is a common practice used in deep learning for improving the performance on the main task of interest. Two main challenges arise in this multi-task learning setting: (i) Designing useful auxiliary tasks; and (ii) Combining auxiliary tasks into a single coherent loss. We propose a novel framework, <i>AuxiLearn</i>, that targets both challenges, based on implicit differentiation. First, when useful auxiliaries are known, we propose learning a network that combines all losses into a single coherent objective function. This network can learn <i>non-linear</i> interactions between auxiliary tasks. Second, when no useful auxiliary task is known, we describe how to learn a network that generates a meaningful, novel auxiliary task. We evaluate AuxiLearn in a series of tasks and domains, including image segmentation and learning with attributes. We find that AuxiLearn consistently improves accuracy compared with competing methods.
+        </p>
+    </div>
 
-<br><br><br>
-<hr>
-<table align=center>
-    <center><h1>Abstract</h1></center>
-</table>
+    <div class="section">
+        <h2>Unified framework for auxiliary learning</h2>
+        <hr>
+        <p>
+            Our goal is to find optimal auxiliary parameters $\phi$ ...
+        </p>
+    </div>
 
-Training with multiple auxiliary tasks is a common practice used in deep learning for improving the performance on the main task of interest. Two main challenges arise in this multi-task learning setting: (i) Designing useful auxiliary tasks; and (ii) Combining auxiliary tasks into a single coherent loss. We propose a novel framework, <i>AuxiLearn</i>, that targets both challenges, based on implicit differentiation. First, when useful auxiliaries are known, we propose learning a network that combines all losses into a single coherent objective function. This network can learn <i>non-linear</i> interactions between auxiliary tasks. Second, when no useful auxiliary task is known, we describe how to learn a network that generates a meaningful, novel auxiliary task. We evaluate AuxiLearn in a series of tasks and domains, including image segmentation and learning with attributes. We find that AuxiLearn consistently improves accuracy compared with competing methods.
+    <div class="section">
+        <h2>An illustrative example</h2>
+        <hr>
+        <p>
 
-<br><br><br>
-<center><img src="/AuxiLearn/resources/framework.png" align="middle"></center>
-<br>
-<hr>
+            <center><img src="/AuxiLearn/resources/loss_landscape.gif" align="middle" > </center>
+    
+      ...
 
+    <div class="section">
+        <h2>Learning with many auxiliaries</h2>
+        <hr>
+        <p>
+           ...
+
+        </p>
+        
+    </div>
+
+    <div class="section">
+        <h2>Pixel-wise losses</h2>
+        <hr>
+        <center><img src="/AuxiLearn/resources/nyu_losses_and_gradients_aux_loss_tight.png" align="middle" style='max-width: 100%'> </center>
+
+        <p>
+            ...
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Learning a novel classification auxiliary task</h2>
+        <hr>
+        <p>
+            <center><img src="/AuxiLearn/resources/cifar10_labels_dense.png" align="middle" style='max-width: 100%'> </center>
+            ...
+        </p>
+
+    </div>
+
+
+    <div class="section">
+        <h2>Paper</h2>
+        <hr>
+        <div>
+            <div class="list-group">
+                <a href="https://arxiv.org/abs/2007.02693"
+                   class="list-group-item">
+                    <img src="/AuxiLearn/resources/paper.png" style="width:100%; margin-right:-20px; margin-top:-10px;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Bibtex</h2>
+        <hr>
+        <div class="bibtexsection">
+    @article{navon2020auxiliary,
+      title={Auxiliary Learning by Implicit Differentiation},
+      author={Navon, Aviv and Achituve, Idan and Maron, Haggai and Chechik, Gal and Fetaya, Ethan},
+      journal={arXiv preprint arXiv:2007.02693},
+      year={2020}
+    }
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+    </footer>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 </body>
 </html>
-
-
