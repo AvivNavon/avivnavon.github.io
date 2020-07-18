@@ -20,7 +20,7 @@ In a [previous post](2019-05-03-the-power-of-mtl.md) I have talked about multita
 
 ### MTL for Deep Learning
 
-The two dominant approaches for performing MTL with neural networks are hard and soft parameter sharing, in which we seek to learn shared or “similar” hidden representation(s) for the different tasks. In order to empose these similarities between tasks, the model is simultaneously learned for all tasks and with some constraint or regularization on the relationship between related parameters.
+The two dominant approaches for performing MTL with neural networks are hard and soft parameter sharing, in which we seek to learn shared or “similar” hidden representation(s) for the different tasks. In order to impose these similarities between tasks, the model is simultaneously learned for all tasks and with some constraint or regularization on the relationship between related parameters.
 
 There are some more complex methods for MTL with neural networks (see e.g. [[1](#[1])], [[2](#[2])]), which I won’t cover here. More examples can be found in [[3](#[3])], [[4](#[4])].
 
