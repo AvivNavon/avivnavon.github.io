@@ -18,7 +18,7 @@ author_profile: true
 [Ethan Fetaya†](http://www.eng.biu.ac.il/fetayae/)
 <br>(*,† equal contribution)
 <br>
-[[paper]](https://arxiv.org/abs/1812.03662) 
+[[paper]](https://arxiv.org/abs/2007.02693) 
 [[project page]](https://avivnavon.github.io/AuxiLearn/)
 [[code]](https://github.com/AvivNavon/AuxiLearn)
 [[bibtex]](https://chechiklab.biu.ac.il/~anavon/cite/auxilearn.bib)
