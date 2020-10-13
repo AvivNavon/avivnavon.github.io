@@ -20,7 +20,7 @@ author_profile: true
 [[paper]](https://arxiv.org/abs/2010.04104)
 [[project page]](https://avivnavon.github.io/ParetoHN/)
 [[code]](https://github.com/AvivNavon/pareto-hypernetworks)
-[[bibtex]]()
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/phn.bib)
 </span>
 
 ---
