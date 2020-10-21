@@ -55,5 +55,5 @@ author_profile: true
 <br>
 [[paper]](https://arxiv.org/abs/1812.03662) 
 [[code]](https://github.com/AvivNavon/MrRCE)
-[[bibtex]](https://chechiklab.biu.ac.il/~anavon/cite/mrrce.bib)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/mrrce_ejs.bib)
 </span>
