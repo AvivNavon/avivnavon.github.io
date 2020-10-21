@@ -48,12 +48,12 @@ author_profile: true
 	<img src="/assets/publication-img/mrrce-group.png" width="450" /> 
 </p>
 <b>Capturing Between-Tasks Covariance and Similarities Using Multivariate Linear Mixed Models.</b>
-<br>
+<br>Electronic Journal of Statistics, 2020.<br>
 <span style="font-size:.8em;">
 [Aviv Navon](https://avivnavon.github.io/), 
 [Saharon Rosset](https://www.tau.ac.il/~saharon/)
 <br>
-[[paper]](https://arxiv.org/abs/1812.03662) 
+[[paper]](https://projecteuclid.org/euclid.ejs/1603245663) 
 [[code]](https://github.com/AvivNavon/MrRCE)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/mrrce_ejs.bib)
 </span>
