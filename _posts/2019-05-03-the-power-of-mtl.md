@@ -9,6 +9,11 @@ tags:
   - sparsity 
 ---
 
+<!-- MathJax -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 One of the fundamentals of the human learning process is that multiple tasks are learned in parallel, and not as independent tasks. Throughout this process, knowledge and experiences acquired in one task, are shared and transferred to the others. This general idea has been adopted in machine learning (ML) as well and has been shown to be beneficial in terms of learning efficiency and prediction accuracy. This subfield of ML is referred to as Multi-Task Learning (MTL).
 
 In this post we will familiarize ourselves with the general concept of MTL and demonstrate the power of MTL compared to Single-Task Learning (STL) approaches, over the problem of multidimensional time-series forecasting.

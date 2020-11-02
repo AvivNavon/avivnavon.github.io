@@ -16,6 +16,11 @@ image:
 comments: true -->
 ---
 
+<!-- MathJax -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 In a [previous post](2019-05-03-the-power-of-mtl.md) I have talked about multitask learning (MTL) and demonstrated the power of MTL compared to Single-Task Learning (STL) approaches. In this post, I will stay under the general topic of MTL, and present a different approach for MTL using parameter sharing in neural networks. Also, I will provide the relevant code for the main models (in PyTorch). Lastly, I will show an interesting use of MTL, to achieve high accuracy in tasks for which data is scarce.
 
 ### MTL for Deep Learning
