@@ -5,3 +5,5 @@
 layout: home
 author_profile: true
 ---
+{% assign front = site.pages | where: 'name','front.md' %}
+{{front}}

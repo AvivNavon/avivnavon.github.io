@@ -9,7 +9,7 @@ author_profile: true
   <img src="/assets/publication-img/toy_pareto_front_many_rays.png" width="550" />
 </p>
 <b>Learning the Pareto Front with Hypernetworks.</b>
-<br>
+<br>ICLR, 2021.<br>
 <span style="font-size:.8em;">
 [Aviv Navon<a>\*</a>](https://avivnavon.github.io/), 
 [Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
@@ -28,7 +28,7 @@ author_profile: true
   <img src="/assets/publication-img/framework.png" width="550" />
 </p>
 <b>Auxiliary Learning by Implicit Differentiation.</b>
-<br>
+<br>ICLR, 2021.<br>
 <span style="font-size:.8em;">
 [Aviv Navon<a>\*</a>](https://avivnavon.github.io/), 
 [Idan Achituve<a>\*</a>](https://chechiklab.biu.ac.il/~achitui/),
