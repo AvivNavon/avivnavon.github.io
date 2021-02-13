@@ -40,7 +40,7 @@ author_profile: true
 [[paper]](https://arxiv.org/abs/2007.02693) 
 [[project page]](https://avivnavon.github.io/AuxiLearn/)
 [[code]](https://github.com/AvivNavon/AuxiLearn)
-[[bibtex]](https://chechiklab.biu.ac.il/~anavon/cite/auxilearn.bib)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/auxilearn.bib)
 </span>
 
 ---
