@@ -7,7 +7,7 @@ author_profile: true
 
 
 <p align="center">
-  <img src="/assets/publications/pfedhn/pfedhn.PNG" width="550" />
+  <img src="/assets/publications/pfedhn/pfedhn.png" width="550" />
 </p>
 <b>Personalized Federated Learning using Hypernetworks.</b>
 <br>Preprint, 2021.<br>
