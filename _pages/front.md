@@ -7,6 +7,6 @@ I am a PhD student at Bar Ilan University, working under the joint supervision o
 
 ### News
 
-- Two papers to be presented in **ICLR 2021:**
+- Two papers to be presented at **ICLR 2021:**
 	- [Learning the Pareto Front with Hypernetworks](https://avivnavon.github.io/ParetoHN/).
 	- [Auxiliary Learning by Implicit Differentiation](https://avivnavon.github.io/AuxiLearn/).
