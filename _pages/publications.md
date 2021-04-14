@@ -5,6 +5,27 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+<p align="center">
+  <img src="/assets/publications/pfedhn/pfedhn.PNG" width="550" />
+</p>
+<b>Personalized Federated Learning using Hypernetworks.</b>
+<br>Preprint, 2021.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/), 
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/)
+<br>(* equal contribution)
+<br>
+[[paper]](https://arxiv.org/abs/2103.04628) 
+[[project page]](https://AvivSham.github.io/pfedhn/)
+[[code]](https://github.com/AvivSham/pFedHN)
+[[bibtex]](/bib/pfedhn.bib)
+</span>
+
+
 <p align="center">
   <img src="/assets/publication-img/toy_pareto_front_many_rays.png" width="550" />
 </p>

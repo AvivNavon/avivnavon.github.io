@@ -64,7 +64,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://chechiklab.biu.ac.il/~anavon/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/avivnav"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -72,6 +72,12 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/aviv-navon-ds/"
+    - label: "Google scholar"
+      icon: "ai ai-google-scholar ai-1x"  # -square
+      url: "https://scholar.google.co.il/citations?hl=en&user=N-sME4wAAAAJ"
+    - label: "Semantic scholar"
+      icon: "ai ai-semantic-scholar ai-1x"
+      url: "https://www.semanticscholar.org/author/Aviv-Navon/90227282"
 
 footer:
   links:
@@ -79,7 +85,7 @@ footer:
       icon: "fas fa-fw fa-link"
       url: "https://chechiklab.biu.ac.il/~anavon/"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-twitter"
       url: "https://twitter.com/avivnav"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -87,6 +93,12 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/aviv-navon-ds/"
+    - label: "Google scholar"
+      icon: "ai ai-google-scholar ai-1x"
+      url: "https://scholar.google.co.il/citations?hl=en&user=N-sME4wAAAAJ"
+    - label: "Semantic scholar"
+      icon: "ai ai-semantic-scholar ai-1x"
+      url: "https://www.semanticscholar.org/author/Aviv-Navon/90227282"
 
 defaults:
   # _posts
