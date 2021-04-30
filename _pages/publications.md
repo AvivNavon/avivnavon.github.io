@@ -40,6 +40,7 @@ author_profile: true
 <br>
 [[paper]](https://arxiv.org/abs/2010.04104)
 [[project page]](https://avivnavon.github.io/ParetoHN/)
+[[poster]](https://avivnavon.github.io/ParetoHN/poster.pdf)
 [[code]](https://github.com/AvivNavon/pareto-hypernetworks)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/phn.bib)
 </span>
@@ -60,6 +61,7 @@ author_profile: true
 <br>
 [[paper]](https://arxiv.org/abs/2007.02693) 
 [[project page]](https://avivnavon.github.io/AuxiLearn/)
+[[poster]](https://avivnavon.github.io/AuxiLearn/poster.pdf)
 [[code]](https://github.com/AvivNavon/AuxiLearn)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/auxilearn.bib)
 </span>
