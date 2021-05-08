@@ -10,7 +10,7 @@ author_profile: true
   <img src="/assets/publications/pfedhn/pfedhn.png" width="550" />
 </p>
 <b>Personalized Federated Learning using Hypernetworks.</b>
-<br>Preprint, 2021.<br>
+<br>ICML, 2021.<br>
 <br>
 <span style="font-size:.8em;">
 [Aviv Shamsian<a>\*</a>](https://avivsham.github.io/), 
@@ -23,6 +23,24 @@ author_profile: true
 [[project page]](https://AvivSham.github.io/pfedhn/)
 [[code]](https://github.com/AvivSham/pFedHN)
 [[bibtex]](/bib/pfedhn.bib)
+</span>
+
+
+<p align="center">
+  <img src="/assets/publications/pfedhn/pfedhn.png" width="550" />
+</p>
+<b>GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning.</b>
+<br>ICML, 2021.<br>
+<br>
+<span style="font-size:.8em;">
+[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/), 
+[Aviv Navon](https://avivnavon.github.io/),
+Yochai Yemini,
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2102.07868)
+[[bibtex]](/bib/gptree.bib)
 </span>
 
 
