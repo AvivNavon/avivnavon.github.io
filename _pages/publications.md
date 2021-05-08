@@ -25,9 +25,9 @@ author_profile: true
 [[bibtex]](/bib/pfedhn.bib)
 </span>
 
-
+---
 <p align="center">
-  <img src="/assets/publications/pfedhn/pfedhn.png" width="550" />
+  <img src="/assets/publications/gptree/tree.png" width="550" />
 </p>
 <b>GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning.</b>
 <br>ICML, 2021.<br>
@@ -43,7 +43,7 @@ Yochai Yemini,
 [[bibtex]](/bib/gptree.bib)
 </span>
 
-
+---
 <p align="center">
   <img src="/assets/publication-img/toy_pareto_front_many_rays.png" width="550" />
 </p>
