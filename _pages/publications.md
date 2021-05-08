@@ -22,7 +22,7 @@ author_profile: true
 [[paper]](https://arxiv.org/abs/2103.04628) 
 [[project page]](https://AvivSham.github.io/pfedhn/)
 [[code]](https://github.com/AvivSham/pFedHN)
-[[bibtex]](/bib/pfedhn.bib)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/pfedhn.bib)
 </span>
 
 ---
@@ -40,7 +40,7 @@ Yochai Yemini,
 [Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
 <br>
 [[paper]](https://arxiv.org/abs/2102.07868)
-[[bibtex]](/bib/gptree.bib)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/gptree.bib)
 </span>
 
 ---
