@@ -58,6 +58,7 @@ Yochai Yemini,
 <br>
 [[paper]](https://arxiv.org/abs/2010.04104)
 [[project page]](https://avivnavon.github.io/ParetoHN/)
+[[video]](https://slideslive.com/38953840)
 [[poster]](https://avivnavon.github.io/ParetoHN/poster.pdf)
 [[code]](https://github.com/AvivNavon/pareto-hypernetworks)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/phn.bib)
@@ -79,6 +80,7 @@ Yochai Yemini,
 <br>
 [[paper]](https://arxiv.org/abs/2007.02693) 
 [[project page]](https://avivnavon.github.io/AuxiLearn/)
+[[video]](https://slideslive.com/38953690)
 [[poster]](https://avivnavon.github.io/AuxiLearn/poster.pdf)
 [[code]](https://github.com/AvivNavon/AuxiLearn)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/auxilearn.bib)
