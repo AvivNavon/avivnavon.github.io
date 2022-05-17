@@ -5,6 +5,31 @@ permalink: /publications/
 author_profile: true
 ---
 
+
+<p align="center">
+  <img src="/assets/publications/nashmtl/nashmtl.png" width="550" />
+</p>
+<b>Multi-Task Learning as a Bargaining Game.</b>
+<br>ICML, 2022.<br>
+<br>
+<span style="font-size:.8em;">
+  [Aviv Shamsian](https://avivsham.github.io/),
+[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
+[Aviv Navon](https://avivnavon.github.io/),
+[Haggai Maron](https://haggaim.github.io/),
+[Kenji Kawaguchi](https://www.comp.nus.edu.sg/cs/people/kenji/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2202.01017) 
+<!-- [[project page]](https://AvivSham.github.io/pfedhn/) -->
+[[code]](https://github.com/AvivNavon/nash-mtl)
+<!-- [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/pfedhn.bib) -->
+</span>
+
+
+---
+
 <p align="center">
   <img src="/assets/publications/pfedgp/pFedGP.png" width="550" />
 </p>
@@ -121,5 +146,3 @@ Yochai Yemini,
 </span>
 
 ---
-
-# Preprint

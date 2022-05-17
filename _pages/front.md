@@ -7,7 +7,8 @@ I am a PhD student at Bar Ilan University, working under the joint supervision o
 
 ### News
 
-- [Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482) accepted to **NeurIPS 2021.**
+- [Multi-Task Learning as a Bargaining Game](https://arxiv.org/abs/2202.01017) has been accepted at **ICML 2022**.
+- [Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482) accepted to **NeurIPS 2021**.
 - Two papers to be presented at **ICML 2021:**
 	- [Personalized Federated Learning using Hypernetworks](https://avivsham.github.io/pfedhn/).
 	- [GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning](https://arxiv.org/abs/2102.07868).
