@@ -22,9 +22,9 @@ author_profile: true
 [Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
 <br>
 [[paper]](https://arxiv.org/abs/2202.01017) 
-<!-- [[project page]](https://AvivSham.github.io/pfedhn/) -->
+[[project page]](https://wandb.ai/geekyrakshit/multi-task-learning/reports/Multi-Task-Learning-as-a-Bargaining-Game--VmlldzoyMDgzNjI2)
 [[code]](https://github.com/AvivNavon/nash-mtl)
-<!-- [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/pfedhn.bib) -->
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/nash-mtl.bib)
 </span>
 
 
