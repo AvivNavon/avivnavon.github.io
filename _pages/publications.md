@@ -146,3 +146,19 @@ Yochai Yemini,
 </span>
 
 ---
+
+## Preprint
+
+<!-- <p align="center">
+  <img src="/assets/publication-img/mrrce-group.png" width="450" /> 
+</p> -->
+<b>A Study on the Evaluation of Generative Models.</b>
+<br>Preprint, 2022.<br>
+<span style="font-size:.8em;">
+Eyal Betzalel,
+Coby Penso,
+Aviv Navon, 
+Ethan Fetaya
+<br>
+[[paper]](https://arxiv.org/pdf/2206.10935.pdf)
+</span>
