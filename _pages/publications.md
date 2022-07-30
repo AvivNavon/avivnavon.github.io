@@ -24,7 +24,7 @@ author_profile: true
 [[paper]](https://arxiv.org/abs/2202.01017) 
 [[project page]](https://wandb.ai/geekyrakshit/multi-task-learning/reports/Multi-Task-Learning-as-a-Bargaining-Game--VmlldzoyMDgzNjI2)
 <!-- [[video]](https://slideslive.com/38953840) -->
-[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL poster.pdf)
+[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf)
 [[code]](https://github.com/AvivNavon/nash-mtl)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/nash-mtl.bib)
 </span>
