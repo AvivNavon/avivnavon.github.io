@@ -7,13 +7,13 @@ author_profile: true
 
 
 <p align="center">
-  <img src="/assets/publications/nashmtl/nashmtl.png" width="550" />
+  <img src="/assets/publications/nash-mtl/nashmtl.png" width="550" />
 </p>
 <b>Multi-Task Learning as a Bargaining Game.</b>
 <br>ICML, 2022.<br>
 <br>
 <span style="font-size:.8em;">
-  [Aviv Shamsian](https://avivsham.github.io/),
+[Aviv Shamsian](https://avivsham.github.io/),
 [Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
 [Aviv Navon](https://avivnavon.github.io/),
 [Haggai Maron](https://haggaim.github.io/),
@@ -23,6 +23,8 @@ author_profile: true
 <br>
 [[paper]](https://arxiv.org/abs/2202.01017) 
 [[project page]](https://wandb.ai/geekyrakshit/multi-task-learning/reports/Multi-Task-Learning-as-a-Bargaining-Game--VmlldzoyMDgzNjI2)
+<!-- [[video]](https://slideslive.com/38953840) -->
+[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL poster.pdf)
 [[code]](https://github.com/AvivNavon/nash-mtl)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/nash-mtl.bib)
 </span>
@@ -44,7 +46,6 @@ author_profile: true
 [Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
 <br>
 [[paper]](https://arxiv.org/abs/2106.15482) 
-<!-- [[project page]](https://AvivSham.github.io/pfedhn/) -->
 [[code]](https://github.com/IdanAchituve/pFedGP)
 <!-- [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/pfedhn.bib) -->
 </span>
