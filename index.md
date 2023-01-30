@@ -1,21 +1,28 @@
 ---
-permalink: /front/
-title: "Front"
+title: 'Aviv Navon'
+layout: single
+author_profile: true
+excerpt: 'ML Researcher'
+header:
+  overlay_image: /images/blank.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
+
+# About me
 
 <span style="font-size:20px;">I am a PhD student at Bar Ilan University, working under the joint supervision of <a href="https://chechiklab.biu.ac.il/~gal/"> Prof. Gal Chechik</a>, head of the <a href="http://chechiklab.biu.ac.il/"> Computational Neurobiology Lab</a> at the <a href="http://www.gondabrain.biu.ac.il/">Gonda Multidisciplinary Brain Research Center</a>, and <a href="http://www.eng.biu.ac.il/fetayae/"> Prof. Ethan Fetaya</a> from the Faculty of Engineering. My main research interest is multitask learning and multi-objective optimization.</span>
 
 ### News
 
 
-- <span style="font-size:20px;">[Multi-Task Learning as a Bargaining Game](https://arxiv.org/abs/2202.01017) has been accepted at **ICML 2022**.</span>
-- <span style="font-size:20px;">[Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482) accepted to **NeurIPS 2021**.</span>
-- <span style="font-size:20px;">Two papers to be presented at **ICML 2021:**</span>
-	- <span style="font-size:20px;">[Personalized Federated Learning using Hypernetworks](https://avivsham.github.io/pfedhn/).</span>
-	- <span style="font-size:20px;">[GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning](https://arxiv.org/abs/2102.07868).</span>
-- <span style="font-size:20px;">Two papers to be presented at **ICLR 2021:**</span>
-	- <span style="font-size:20px;">[Learning the Pareto Front with Hypernetworks](https://avivnavon.github.io/ParetoHN/).</span>
-	- <span style="font-size:20px;">[Auxiliary Learning by Implicit Differentiation](https://avivnavon.github.io/AuxiLearn/).</span>
+- <span style="font-size:18px;">[Multi-Task Learning as a Bargaining Game](https://arxiv.org/abs/2202.01017) has been accepted at **ICML 2022**.</span>
+- <span style="font-size:18px;">[Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482) accepted to **NeurIPS 2021**.</span>
+- <span style="font-size:18px;">Two papers to be presented at **ICML 2021:**</span>
+	- <span style="font-size:18px;">[Personalized Federated Learning using Hypernetworks](https://avivsham.github.io/pfedhn/).</span>
+	- <span style="font-size:18px;">[GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning](https://arxiv.org/abs/2102.07868).</span>
+- <span style="font-size:18px;">Two papers to be presented at **ICLR 2021:**</span>
+	- <span style="font-size:18px;">[Learning the Pareto Front with Hypernetworks](https://avivnavon.github.io/ParetoHN/).</span>
+	- <span style="font-size:18px;">[Auxiliary Learning by Implicit Differentiation](https://avivnavon.github.io/AuxiLearn/).</span>
 
 ### Publications
 

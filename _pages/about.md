@@ -7,4 +7,4 @@ I am a PhD student at Bar Ilan University, working under the joint supervision o
 
 I hold an MSc in Applied Statistics and Data Science (summa cum laude), and a BSc in Mathematics and Statistics (summa cum laude), from Tel Aviv University.
 
-I have several years of industry experience, working as a Data Scientist at various domains, such as mobility (<a href="https://gett.com/il/">Gett</a>) and fintech (<a href="https://www.prosper.com/">BillGuard</a>). Currently, I work as a Senior Data Scientist at <a href="https://aiola.com/">Aiola</a>.
+I have several years of industry experience, working as a Data Scientist at various domains, such as mobility (<a href="https://gett.com/il/">Gett</a>) and fintech (<a href="https://www.prosper.com/">BillGuard</a>). Currently, I work as Research & DS Tech Lead at <a href="https://aiola.com/">Aiola</a>.
