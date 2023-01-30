@@ -4,8 +4,8 @@ layout: single
 author_profile: true
 excerpt: 'ML Researcher'
 header:
-  overlay_image: /images/blank.jpg
-  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  overlay_image: /assets/images/background_mountain.jpg
+  overlay_filter: 0.35
 ---
 
 # About me
@@ -50,3 +50,7 @@ header:
 <span style="font-size:18px;">[Auxiliary Learning by Implicit Differentiation](https://arxiv.org/abs/2007.02693)</span><br>
 <span style="font-size:17px;">A. Navon, I. Achituve, H. Maron, G. Chechik, E. Fetaya </span><br>
 <span style="font-size:18px;">_International Conference on Learning Representations, ICLR 2021_.</span><br>
+<!-- --- -->
+<span style="font-size:18px;">[Capturing Between-Tasks Covariance and Similarities Using Multivariate Linear Mixed Models](https://projecteuclid.org/euclid.ejs/1603245663)</span><br>
+<span style="font-size:17px;">A. Navon, S. Rosset </span><br>
+<span style="font-size:18px;">_Electronic Journal of Statistics, EJS 2020_.</span><br>
