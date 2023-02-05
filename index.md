@@ -68,7 +68,7 @@ header:
 <span style="font-size:18px;"> _Preprint, 2023_.</span><br>
 <!-- --- -->
 
-<span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501v1)</span><br>
+<span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501)</span><br>
 <span style="font-size:17px;"> A. Shamsian, A. Navon, N. Glazer, K. Kawaguchi, G. Chechik, E. Fetaya </span><br>
 <span style="font-size:18px;"> _Preprint, 2023_.</span><br>
 <!-- --- -->
