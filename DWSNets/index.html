@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta property="og:image" content="https://avivnavon.github.io/DWSNets/resources/sym.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Equivariant Architectures for Learning in Deep Weight Spaces">
+    <meta name="author" content="
+    Aviv Navon, 
+    Aviv Shamsian, 
+    Idan Achituve, 
+    Ethan Fetaya,
+    Gal Chechik,  
+    Haggai Maron"
+    >
+
+    <title>Equivariant Architectures for Learning in Deep Weight Spaces</title>
+    <!-- Bootstrap core CSS -->
+    <!--link href="bootstrap.min.css" rel="stylesheet"-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+</head>
+
+<!-- MathJax -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="container"></div>
+    <!-- <h1> <b>!!!WIP!!!</b> </h1> -->
+    <h1>Equivariant Architectures for Learning in Deep Weight Spaces</h1>
+    <!-- <h3>Preprint.</h3> -->
+    <hr>
+    <p class="authors">
+        <tr>
+            <span style="font-size:24px"><a href="https://avivnavon.github.io/">Aviv Navon*</a><sup>1</sup></span> &nbsp;
+            <span style="font-size:24px"><a href="https://avivsham.github.io/">Aviv Shamsian*</a><sup>1</sup></span>&nbsp;
+            <span style="font-size:24px"><a href="https://chechiklab.biu.ac.il/~achitui/">Idan Achituve</a><sup>1</sup></span>&nbsp;
+        </tr><br>
+        <tr>
+            <span style="font-size:24px"><a href="http://www.eng.biu.ac.il/fetayae/">Ethan Fetaya</a><sup>1</sup></span> &nbsp;
+            <span style="font-size:24px"><a href="https://chechiklab.biu.ac.il/">Gal Chechik</a><sup>1,2</sup></span> &nbsp;
+            <span style="font-size:24px"><a href="https://haggaim.github.io/">Haggai Maron</a><sup>2</sup></span> &nbsp;
+        </tr>
+    </p>
+
+    <span style="font-size:18px">* equal contribution</span>
+    <br>
+    <br>
+    <table align=center>
+        <tr>
+            <td align=center>
+                <center>
+                    <span style="font-size:20px">
+                        <sup>1</sup>Bar-Ilan University
+                        <br>
+                        <sup>2</sup>NVIDIA Research
+                    </span>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <div class="btn-group" role="group" aria-label="Top menu">
+        <a class="btn btn-primary" href="https://arxiv.org/abs/2301.12780">Paper</a>
+        <!-- <a class="btn btn-primary" href="https://slideslive.com/38953690">Video</a>
+        <a class="btn btn-primary" href="https://avivnavon.github.io/AuxiLearn/poster.pdf">Poster</a>
+        <a class="btn btn-primary" href="https://github.com/AvivNavon/AuxiLearn">Code</a> -->
+    </div>
+
+    
+
+</div>
+
+<!-- /Users/avivnavon/Desktop/avivnavon.github.io -->
+
+<div class="container">
+    <div class="section">
+
+        <figure>
+            <center>
+                <img src="resources/sym.png" align="middle" style='max-width: 65%'> 
+                <figcaption>Symmetries of deep weight spaces, shown here on a $3$-layer MLP.</figcaption>
+            </center>
+            </figure>
+
+        <hr>
+        <p>
+            Designing machine learning architectures for processing neural networks in their raw weight matrix
+            form is a newly introduced research direction. Unfortunately, the unique symmetry structure of deep
+            weight spaces makes this design very challenging. If successful, such architectures would be capable
+            of performing a wide range of intriguing tasks, from adapting a pre-trained network to a new domain
+            to editing objects represented as functions (INRs or NeRFs). As a first step towards this goal, we
+            present here a novel network architecture for learning in deep weight spaces. It takes as input a
+            concatenation of weights and biases of a pre-trained MLP and processes it using a composition of
+            layers that are equivariant to the natural permutation symmetry of the MLP’s weights: Changing the
+            order of neurons in intermediate layers of the MLP does not affect the function it represents. We
+            provide a full characterization of all affine equivariant and invariant layers for these symmetries and
+            show how these layers can be implemented using three basic operations: pooling, broadcasting, and
+            fully connected layers applied to the input in an appropriate manner. We demonstrate the effectiveness
+            of our architecture and its advantages over natural baselines in a variety of learning tasks
+        </p>
+    </div>
+
+    <div class="section">
+        <h2> A characterization of linear invariant and equivariant layers for weight-spaces</h2>
+        <hr>
+        <p>
+
+            <figure>
+            <center>
+                <img src="resources/blocks_slim.png" align="middle" style='max-width: 100%'> 
+                <figcaption>Block matrix structure for linear equivariant maps between weight spaces.</figcaption>
+            </center>
+            </figure>
+
+            We address learning in spaces that represent a concatenation of weight (and bias) matrices of Multilayer Perceptrons (MLPs). We analyze the symmetry structure of neural weight spaces. Then we design architectures that are equivariant to the natural symmetries of the data. Specifically, we focus on the main type of symmetry found in the weights of MLPs: for any two consecutive internal layers of an MLP, simultaneously permuting the rows of the first layer and the columns of the second layer generates a new sequence of weight matrices that represent exactly the same underlying function. We provide a full characterization of all affine equivariant and invariant layers for these symmetries and show how these layers can be implemented using three basic operations: pooling, broadcasting, and fully connected layers applied to the input in an appropriate manner. <br><br>
+
+
+            We term our linear equivariant layers, <b><i>DWS-layers</i></b>, and the architectures that use them (interleaved with pointwise nonlinearities) <b><i>DWSNets</i></b> (for Deep Weight-Space Networks).
+
+        </p>
+    </div>
+
+    <div class="section">
+        <center><h2>Results</h2></center>
+        <hr>
+        <h3>Regression of sine wave frequency</h3>
+        <hr>
+        <p>
+            <figure>
+            <center>
+                <img src="resources/sine_regression.png" align="middle" style='max-width: 65%'> 
+                <figcaption>Sine wave regression. Test MSE (log scale) for a varying number of training examples.</figcaption>
+            </center>
+            </figure>
+
+            To first illustrate the operation of DWSNets, we look into a regression problem. We train INRs to fit sine waves on $[-\pi, \pi]$, with different frequencies sampled from $U(0.5, 10)$. Each sine wave is represented as an MLP trained as an INR network, and the task is to have the DWSNet predict the frequency of a given test INR network. To illustrate the generalization capabilities of the architectures, we repeat the experiment by training the DWSNet with a varying number of training examples (INRs). DWSNets performs significantly better than baseline methods even with a small number of training examples.
+            
+        </p>
+    <!-- <div class="section"> -->
+        <br>
+        <h3>Classification of images represented as INRs</h3>
+        <hr>
+        <p>
+
+            <figure>
+            <center>
+                <figcaption>INR classification: The class of an INR is defined by the image that it represents.</figcaption>
+                <img src="resources/inr_clf.png" align="middle" style='max-width: 65%'> 
+            </center>
+        </figure>
+
+         Here, INRs were trained to represent images from MNIST and Fashion-MNIST. The task is to have the DWSNet recognize the image content, like the digit in MNIST, by using the weights of these INRs as input. Table 1 shows that DWSNets outperforms all baseline methods by a large margin.
+
+        </p>
+        
+    <!-- </div> -->
+
+    <!-- <div class="section"> -->
+        <br>
+        <h3>Self-supervised learning for dense representation</h3>
+        <hr>
+
+        <figure>
+            <center>
+                <figcaption>2D TSNE of the resulting low-dimensional space.</figcaption>
+                <img src="resources/dense_rep_all_methods.png" align="middle" style='max-width: 85%'> 
+            </center>
+        </figure>
+
+        <p>
+            Here we wish to embed neural networks into a semantic coherent low dimensional space. To that end, we fit INRs on sine waves of the form a $\sin(bx)$ on $[−\pi, \pi]$. Here $a, b \sim U(0, 10)$. We use a SimCLR-like training procedure and objective, by generating random views from each INR by adding Gaussian noise and random masking. We qualitatively observe a 2D TSNE of the resulting space.
+        </p>
+
+
+
+    <div class="section">
+        <h2>Paper</h2>
+        <hr>
+        <div>
+            <div class="list-group">
+                <a href="https://arxiv.org/abs/2301.12780"
+                   class="list-group-item">
+                    <img src="resources/paper.png" style="width:100%; margin-right:-20px; margin-top:-10px;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Bibtex</h2>
+        <hr>
+        <div class="bibtexsection">
+    @article{
+        navon2023equivariant,
+        title={Equivariant Architectures for Learning in Deep Weight Spaces},
+        author={
+            Navon, Aviv and Shamsian, Aviv and Achituve, Idan and Fetaya, 
+            Ethan and Chechik, Gal and Maron, Haggai
+        },
+        journal={arXiv preprint arXiv:2301.12780},
+        year={2023}
+    }
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+    </footer>
+</div>
+
+
+<!-- <div class="section">
+        <h2>Acknowledgements</h2>
+        <hr>
+        <p>
+             The authors wish to thank Nadav Dym and Derek Lim for providing valuable feedback on early versions of the manuscript. In addition, they would like to thank Yaron Lipman for helpful Discussions. This study was funded by a grant to GC from the Israel Science Foundation (ISF 737/2018), and by an equipment grant to GC and Bar-Ilan University from the Israel Science Foundation (ISF 2332/18). AN and AS are supported by a grant from the Israeli higher-council of education, through the Bar-Ilan data science institute (BIU DSI). IA is supported by a PhD fellowship from DSI BIU.
+        </p>
+
+    </div> -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+<hr>
+<footer>The website template is available at <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</footer>
+
+</body>
+</html>
