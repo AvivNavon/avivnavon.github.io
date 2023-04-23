@@ -148,7 +148,7 @@ Yochai Yemini,
 
 ---
 
-## Preprint
+# Preprint
 
 
 <p align="center">
