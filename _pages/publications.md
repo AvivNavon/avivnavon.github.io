@@ -6,12 +6,62 @@ author_profile: true
 ---
 
 
+
+<p align="center">
+  <img src="/DWSNets/resources/sym_new.png" width="550" />
+</p>
+<b>Equivariant Architectures for Learning in Deep Weight Spaces.</b>
+<br>ICML, 2023.<br>
+<b>Oral presentation.</b>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Haggai Maron](https://haggaim.github.io/)
+<br>
+[[paper]](https://arxiv.org/abs/2301.12780)
+[[project page]](https://avivnavon.github.io/DWSNets/)
+<!-- [[video]](https://slideslive.com/38983842/multitask-learning-as-a-bargaining-game)
+[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf) -->
+[[code]](https://github.com/AvivNavon/DWSNets)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/dws-nets.bib)
+</span>
+
+---
+
+<p align="center">
+  <img src="/assets/publications/auxi-nash/update_direction_by_preference.png" width="550" />
+</p>
+<b>Auxiliary Learning as an Asymmetric Bargaining Game.</b>
+<br>ICML, 2023.<br>
+<!-- <br> -->
+<span style="font-size:.8em;">
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+Neta Glazer,
+[Kenji Kawaguchi](https://www.comp.nus.edu.sg/cs/people/kenji/),
+[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
+[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
+<br>
+[[paper]](https://arxiv.org/abs/2301.13501)
+[[project page]](https://avivsham.github.io/auxinash/)
+<!-- [[video]](https://slideslive.com/38983842/multitask-learning-as-a-bargaining-game)
+[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf) -->
+[[code]](https://github.com/AvivSham/auxinash)
+[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/auxi-nash.bib)
+</span>
+
+---
+
 <p align="center">
   <img src="/assets/publications/nash-mtl/nashmtl.png" width="550" />
 </p>
 <b>Multi-Task Learning as a Bargaining Game.</b>
 <br>ICML, 2022.<br>
-<br>
+<!-- <br> -->
 <span style="font-size:.8em;">
 [Aviv Navon](https://avivnavon.github.io/),
 [Aviv Shamsian](https://avivsham.github.io/),
@@ -37,7 +87,7 @@ author_profile: true
 </p>
 <b>Personalized Federated Learning with Gaussian Processes.</b>
 <br>NeurIPS, 2021.<br>
-<br>
+<!-- <br> -->
 <span style="font-size:.8em;">
 [Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
 [Aviv Shamsian](https://avivsham.github.io/),
@@ -56,7 +106,7 @@ author_profile: true
 </p>
 <b>Personalized Federated Learning using Hypernetworks.</b>
 <br>ICML, 2021.<br>
-<br>
+<!-- <br> -->
 <span style="font-size:.8em;">
 [Aviv Shamsian<a>\*</a>](https://avivsham.github.io/), 
 [Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
@@ -76,7 +126,7 @@ author_profile: true
 </p>
 <b>GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning.</b>
 <br>ICML, 2021.<br>
-<br>
+<!-- <br> -->
 <span style="font-size:.8em;">
 [Idan Achituve](https://chechiklab.biu.ac.il/~achitui/), 
 [Aviv Navon](https://avivnavon.github.io/),
@@ -149,53 +199,6 @@ Yochai Yemini,
 ---
 
 # Preprint
-
-
-<p align="center">
-  <img src="/DWSNets/resources/sym_new.png" width="550" />
-</p>
-<b>Equivariant Architectures for Learning in Deep Weight Spaces.</b>
-<br>Preprint, 2023.<br>
-<br>
-<span style="font-size:.8em;">
-[Aviv Navon](https://avivnavon.github.io/),
-[Aviv Shamsian](https://avivsham.github.io/),
-[Idan Achituve](https://chechiklab.biu.ac.il/~achitui/),
-[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/),
-[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
-[Haggai Maron](https://haggaim.github.io/)
-<br>
-[[paper]](https://arxiv.org/abs/2301.12780)
-[[project page]](https://avivnavon.github.io/DWSNets/)
-<!-- [[video]](https://slideslive.com/38983842/multitask-learning-as-a-bargaining-game)
-[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf) -->
-[[code]](https://github.com/AvivNavon/DWSNets)
-[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/dws-nets.bib)
-</span>
-
----
-
-<p align="center">
-  <img src="/assets/publications/auxi-nash/update_direction_by_preference.png" width="550" />
-</p>
-<b>Auxiliary Learning as an Asymmetric Bargaining Game.</b>
-<br>Preprint, 2023.<br>
-<br>
-<span style="font-size:.8em;">
-[Aviv Shamsian](https://avivsham.github.io/),
-[Aviv Navon](https://avivnavon.github.io/),
-Neta Glazer,
-[Kenji Kawaguchi](https://www.comp.nus.edu.sg/cs/people/kenji/),
-[Gal Chechik](https://chechiklab.biu.ac.il/~gal/),
-[Ethan Fetaya](https://www.eng.biu.ac.il/fetayae/)
-<br>
-[[paper]](https://arxiv.org/abs/2301.13501)
-[[project page]](https://avivsham.github.io/auxinash/)
-<!-- [[video]](https://slideslive.com/38983842/multitask-learning-as-a-bargaining-game)
-[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf) -->
-[[code]](https://github.com/AvivSham/auxinash)
-[[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/auxi-nash.bib)
-</span>
 
 ---
 

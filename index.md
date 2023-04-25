@@ -14,7 +14,9 @@ header:
 
 ### News
 
-
+- <span style="font-size:18px;">Two papers accepted at **ICML 2023:**</span>
+  - <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780) [**Oral**].</span>
+  - <span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501).</span>
 - <span style="font-size:18px;">[Multi-Task Learning as a Bargaining Game](https://arxiv.org/abs/2202.01017) has been accepted at **ICML 2022**.</span>
 - <span style="font-size:18px;">[Personalized Federated Learning with Gaussian Processes](https://arxiv.org/abs/2106.15482) accepted to **NeurIPS 2021**.</span>
 - <span style="font-size:18px;">Two papers to be presented at **ICML 2021:**</span>
@@ -26,6 +28,17 @@ header:
 
 ### Publications
 
+
+<span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780)</span><br>
+<span style="font-size:17px;"> A. Navon, A. Shamsian, I. Achituve, E. Fetaya, G. Chechik, H. Maron </span><br>
+<span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2023_.</span><br>
+<span style="font-size:18px;"> **Oral presentation**.</span><br>
+<!-- --- -->
+
+<span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501)</span><br>
+<span style="font-size:17px;"> A. Shamsian, A. Navon, N. Glazer, K. Kawaguchi, G. Chechik, E. Fetaya </span><br>
+<span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2023_.</span><br>
+<!-- --- -->
 
 <span style="font-size:18px;">[Multi-Task Learning as a Bargaining Game](https://arxiv.org/abs/2202.01017)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, I. Achituve, H. Maron, K. Kawaguchi, G. Chechik, E. Fetaya </span><br>
@@ -62,16 +75,6 @@ header:
 <span style="font-size:18px;">_Electronic Journal of Statistics, EJS 2020_.</span><br>
 
 ### Preprints
-
-<span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780)</span><br>
-<span style="font-size:17px;"> A. Navon, A. Shamsian, I. Achituve, E. Fetaya, G. Chechik, H. Maron </span><br>
-<span style="font-size:18px;"> _Preprint, 2023_.</span><br>
-<!-- --- -->
-
-<span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501)</span><br>
-<span style="font-size:17px;"> A. Shamsian, A. Navon, N. Glazer, K. Kawaguchi, G. Chechik, E. Fetaya </span><br>
-<span style="font-size:18px;"> _Preprint, 2023_.</span><br>
-<!-- --- -->
 
 <span style="font-size:18px;">[A Study on the Evaluation of Generative Models](https://arxiv.org/abs/2206.10935)</span><br>
 <span style="font-size:17px;"> E. Betzalel, C. Penso, A. Navon, E. Fetaya </span><br>
