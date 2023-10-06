@@ -76,6 +76,14 @@ header:
 
 ### Preprints
 
+<span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2309.08561)</span><br>
+<span style="font-size:17px;"> A. Navon, A. Shamsian, N. Glazer, G. Hetz, J. Keshet </span><br>
+<span style="font-size:18px;"> _Preprint, 2023_.</span><br>
+
+<span style="font-size:18px;">[Learning Discrete Weights and Activations Using the Local Reparameterization Trick](https://arxiv.org/abs/2307.01683)</span><br>
+<span style="font-size:17px;"> G. Berger, A. Navon, E. Fetaya </span><br>
+<span style="font-size:18px;"> _Preprint, 2023_.</span><br>
+
 <span style="font-size:18px;">[A Study on the Evaluation of Generative Models](https://arxiv.org/abs/2206.10935)</span><br>
 <span style="font-size:17px;"> E. Betzalel, C. Penso, A. Navon, E. Fetaya </span><br>
 <span style="font-size:18px;"> _Preprint, 2022_.</span><br>

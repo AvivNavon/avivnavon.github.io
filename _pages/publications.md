@@ -24,9 +24,10 @@ author_profile: true
 <br>
 [[paper]](https://arxiv.org/abs/2301.12780)
 [[project page]](https://avivnavon.github.io/DWSNets/)
-<!-- [[video]](https://slideslive.com/38983842/multitask-learning-as-a-bargaining-game)
-[[poster]](https://avivnavon.github.io/assets/publications/nash-mtl/Nash-MTL-poster.pdf) -->
+[[video]](https://icml.cc/virtual/2023/oral/25528)
+[[poster]](https://icml.cc/media/PosterPDFs/ICML%202023/24582.png?t=1687508976.0894368)
 [[code]](https://github.com/AvivNavon/DWSNets)
+[[blog]](https://developer.nvidia.com/blog/designing-deep-networks-to-process-other-deep-networks/)
 [[bibtex]](https://raw.githubusercontent.com/AvivNavon/avivnavon.github.io/master/bib/dws-nets.bib)
 </span>
 
@@ -202,9 +203,32 @@ Yochai Yemini,
 
 ---
 
-<!-- <p align="center">
-  <img src="/assets/publication-img/mrrce-group.png" width="450" /> 
-</p> -->
+<b>Open-vocabulary Keyword-spotting with Adaptive Instance Normalization.</b>
+<br>Preprint, 2023.<br>
+<span style="font-size:.8em;">
+Aviv Navon,
+Aviv Shamsian,
+Neta Glazer, 
+Gill Hetz,
+Joseph Keshet
+<br>
+[[paper]](https://arxiv.org/abs/2309.08561)
+</span>
+
+---
+
+<b>Learning Discrete Weights and Activations Using the Local Reparameterization Trick.</b>
+<br>Preprint, 2023.<br>
+<span style="font-size:.8em;">
+Guy Berger,
+Aviv Navon,
+Ethan Fetaya
+<br>
+[[paper]](https://arxiv.org/abs/2307.01683)
+</span>
+
+---
+
 <b>A Study on the Evaluation of Generative Models.</b>
 <br>Preprint, 2022.<br>
 <span style="font-size:.8em;">
