@@ -7,6 +7,7 @@ title: "Front"
 
 ### News
 
+- <span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2301.13501) accepted at **ICASSP 2024**.</span>
 - <span style="font-size:18px;">Two papers accepted at **ICML 2023:**</span>
   - <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780) (**Oral**).</span>
   - <span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501).</span>

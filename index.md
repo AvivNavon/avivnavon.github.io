@@ -14,6 +14,7 @@ header:
 
 ### News
 
+- <span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2301.13501) accepted at **ICASSP 2024**.</span>
 - <span style="font-size:18px;">Two papers accepted at **ICML 2023:**</span>
   - <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780) [**Oral**].</span>
   - <span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501).</span>
@@ -76,8 +77,8 @@ header:
 
 ### Preprints
 
-<span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2309.08561)</span><br>
-<span style="font-size:17px;"> A. Navon, A. Shamsian, N. Glazer, G. Hetz, J. Keshet </span><br>
+<span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397)</span><br>
+<span style="font-size:17px;"> A. Navon, A. Shamsian, E. Fetaya, G. Chechik, N. Dym, H. Maron </span><br>
 <span style="font-size:18px;"> _Preprint, 2023_.</span><br>
 
 <span style="font-size:18px;">[Learning Discrete Weights and Activations Using the Local Reparameterization Trick](https://arxiv.org/abs/2307.01683)</span><br>

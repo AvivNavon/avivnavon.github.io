@@ -6,6 +6,24 @@ author_profile: true
 ---
 
 
+<p align="center">
+  <img src="/assets/publications/adakws/heatmap.png" width="550" />
+</p>
+<b>Open-vocabulary Keyword-spotting with Adaptive Instance Normalization.</b>
+<br>ICASSP, 2024.<br>
+<br>
+<span style="font-size:.8em;">
+[Aviv Navon<a>\*</a>](https://avivnavon.github.io/),
+[Aviv Shamsian<a>\*</a>](https://avivsham.github.io/),
+Neta Glazer,
+Gill Hetz,
+Joseph Keshet
+<br>
+[[paper]](https://arxiv.org/abs/2301.13501)
+</span>
+
+
+---
 
 <p align="center">
   <img src="/DWSNets/resources/sym_new.png" width="550" />
@@ -203,16 +221,17 @@ Yochai Yemini,
 
 ---
 
-<b>Open-vocabulary Keyword-spotting with Adaptive Instance Normalization.</b>
+<b>Equivariant Deep Weight Space Alignment.</b>
 <br>Preprint, 2023.<br>
 <span style="font-size:.8em;">
 Aviv Navon,
 Aviv Shamsian,
-Neta Glazer, 
-Gill Hetz,
-Joseph Keshet
+Ethan Fetaya, 
+Gal Chechik,
+Nadav Dym,
+Haggai Maron
 <br>
-[[paper]](https://arxiv.org/abs/2309.08561)
+[[paper]](https://arxiv.org/abs/2310.13397)
 </span>
 
 ---
