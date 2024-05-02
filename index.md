@@ -10,10 +10,13 @@ header:
 
 # About me
 
-<span style="font-size:20px;">I am a PhD student at Bar Ilan University, working under the joint supervision of <a href="https://chechiklab.biu.ac.il/~gal/"> Prof. Gal Chechik</a>, head of the <a href="http://chechiklab.biu.ac.il/"> Computational Neurobiology Lab</a> at the <a href="http://www.gondabrain.biu.ac.il/">Gonda Multidisciplinary Brain Research Center</a>, and <a href="http://www.eng.biu.ac.il/fetayae/"> Prof. Ethan Fetaya</a> from the Faculty of Engineering. My main research interests are multitask learning and multi-objective optimization. </span>
+<span style="font-size:20px;">I am a PhD student at Bar Ilan University, working under the joint supervision of <a href="https://chechiklab.biu.ac.il/~gal/"> Prof. Gal Chechik</a>, head of the <a href="http://chechiklab.biu.ac.il/"> Computational Neurobiology Lab</a> at the <a href="http://www.gondabrain.biu.ac.il/">Gonda Multidisciplinary Brain Research Center</a>, and <a href="http://www.eng.biu.ac.il/fetayae/"> Prof. Ethan Fetaya</a> from the Faculty of Engineering. My main research interests are multitask learning and equivariant weight space networks.</span>
 
 ### News
 
+- <span style="font-size:18px;">Two papers to be presented at **ICML 2024:**</span>
+	- <span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397).</span>
+	- <span style="font-size:18px;">[Improved Generalization of Weight Space Networks via Augmentations](https://arxiv.org/abs/2402.04081).</span>
 - <span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2301.13501) accepted at **ICASSP 2024**.</span>
 - <span style="font-size:18px;">Two papers accepted at **ICML 2023:**</span>
   - <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780) [**Oral**].</span>
@@ -29,6 +32,15 @@ header:
 
 ### Publications
 
+<span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397)</span><br>
+<span style="font-size:17px;"> A. Navon, A. Shamsian, E. Fetaya, G. Chechik, N. Dym, H. Maron </span><br>
+<span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2024_.</span><br>
+<!-- --- -->
+
+<span style="font-size:18px;">[Improved Generalization of Weight Space Networks via Augmentations](https://arxiv.org/abs/2402.04081)</span><br>
+<span style="font-size:17px;"> A. Shamsian, A. Navon,  D. Zhang, Y. Zhang, E. Fetaya, G. Chechik, H. Maron </span><br>
+<span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2024_.</span><br>
+<!-- --- -->
 
 <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, I. Achituve, E. Fetaya, G. Chechik, H. Maron </span><br>
@@ -76,10 +88,6 @@ header:
 <span style="font-size:18px;">_Electronic Journal of Statistics, EJS 2020_.</span><br>
 
 ### Preprints
-
-<span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397)</span><br>
-<span style="font-size:17px;"> A. Navon, A. Shamsian, E. Fetaya, G. Chechik, N. Dym, H. Maron </span><br>
-<span style="font-size:18px;"> _Preprint, 2023_.</span><br>
 
 <span style="font-size:18px;">[Learning Discrete Weights and Activations Using the Local Reparameterization Trick](https://arxiv.org/abs/2307.01683)</span><br>
 <span style="font-size:17px;"> G. Berger, A. Navon, E. Fetaya </span><br>
