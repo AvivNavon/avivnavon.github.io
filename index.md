@@ -14,6 +14,7 @@ header:
 
 ### News
 
+- <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649) accepted at **Interspeech 2024**.</span>
 - <span style="font-size:18px;">Two papers to be presented at **ICML 2024:**</span>
 	- <span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397).</span>
 	- <span style="font-size:18px;">[Improved Generalization of Weight Space Networks via Augmentations](https://arxiv.org/abs/2402.04081).</span>
