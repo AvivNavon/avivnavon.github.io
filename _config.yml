@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Aviv Navon"
-  avatar : "/assets/images/mypic_new.png"
+  avatar : "/assets/images/mypic_new.jpg"
   bio    : "PhD Student @ BIU // Data Scientist @ Aiola"
   links:
     - label: "Website"
