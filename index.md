@@ -14,11 +14,12 @@ header:
 
 ### News
 
+- <span style="font-size:18px;">[Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869) accepted at **ICASSP 2025**.</span>
 - <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649) accepted at **Interspeech 2024**.</span>
 - <span style="font-size:18px;">Two papers to be presented at **ICML 2024:**</span>
 	- <span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397).</span>
 	- <span style="font-size:18px;">[Improved Generalization of Weight Space Networks via Augmentations](https://arxiv.org/abs/2402.04081).</span>
-- <span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2301.13501) accepted at **ICASSP 2024**.</span>
+- <span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2309.08561) accepted at **ICASSP 2024**.</span>
 - <span style="font-size:18px;">Two papers accepted at **ICML 2023:**</span>
   - <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780) [**Oral**].</span>
   - <span style="font-size:18px;">[Auxiliary Learning as an Asymmetric Bargaining Game](https://arxiv.org/abs/2301.13501).</span>
@@ -33,6 +34,16 @@ header:
 
 ### Publications
 
+<span style="font-size:18px;">[Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869)</span><br>
+<span style="font-size:17px;"> Y. Segal-Feldman, A. Shamsian, A. Navon, G. Hetz, J. Keshet</span><br>
+<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)_.</span><br>
+<!-- --- -->
+
+<span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649)</span><br>
+<span style="font-size:17px;"> A. Shamsian, A. Navon, N. Glazer, G. Hetz, J. Keshet</span><br>
+<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2024)_.</span><br>
+<!-- --- -->
+
 <span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, E. Fetaya, G. Chechik, N. Dym, H. Maron </span><br>
 <span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2024_.</span><br>
@@ -41,6 +52,11 @@ header:
 <span style="font-size:18px;">[Improved Generalization of Weight Space Networks via Augmentations](https://arxiv.org/abs/2402.04081)</span><br>
 <span style="font-size:17px;"> A. Shamsian, A. Navon,  D. Zhang, Y. Zhang, E. Fetaya, G. Chechik, H. Maron </span><br>
 <span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2024_.</span><br>
+<!-- --- -->
+
+<span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2309.08561)</span><br>
+<span style="font-size:17px;"> A. Navon, A. Shamsian, N. Glazer, G. Hetz, J. Keshet</span><br>
+<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024)_.</span><br>
 <!-- --- -->
 
 <span style="font-size:18px;">[Equivariant Architectures for Learning in Deep Weight Spaces](https://arxiv.org/abs/2301.12780)</span><br>
