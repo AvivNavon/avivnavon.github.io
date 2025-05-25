@@ -10,12 +10,22 @@ header:
 
 # About me
 
-<span style="font-size:20px;">I am a PhD student at Bar Ilan University, working under the joint supervision of <a href="https://chechiklab.biu.ac.il/~gal/"> Prof. Gal Chechik</a>, head of the <a href="http://chechiklab.biu.ac.il/"> Computational Neurobiology Lab</a> at the <a href="http://www.gondabrain.biu.ac.il/">Gonda Multidisciplinary Brain Research Center</a>, and <a href="http://www.eng.biu.ac.il/fetayae/"> Prof. Ethan Fetaya</a> from the Faculty of Engineering. My main research interests are multitask learning and equivariant weight space networks.</span>
+<span style="font-size:20px;">
+I hold a PhD from Bar-Ilan University, where I was jointly supervised by 
+Prof. Gal Chechik and Prof. Ethan Fetaya. My academic research mainly focused on <b>multitask learning</b> and <b>equivariant weight space networks</b>, 
+with a broader interest in principled approaches to deep learning.
+<br><br>
+Currently, I am the <b>Research Team Lead</b> at <a href="https://www.aiola.ai/">aiOla</a>, 
+where I lead initiatives in <b>speech understanding</b> and <b>speech synthesis</b>. 
+My work spans the development of novel IP, applied research, and publications in conversational AI, with a strong focus on bridging cutting-edge research and real-world deployment.
+</span>
+
 
 ### News
 
+- <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465) accepted at **InterSpeech 2025**.</span>
 - <span style="font-size:18px;">[Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869) accepted at **ICASSP 2025**.</span>
-- <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649) accepted at **Interspeech 2024**.</span>
+- <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649) accepted at **InterSpeech 2024**.</span>
 - <span style="font-size:18px;">Two papers to be presented at **ICML 2024:**</span>
 	- <span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397).</span>
 	- <span style="font-size:18px;">[Improved Generalization of Weight Space Networks via Augmentations](https://arxiv.org/abs/2402.04081).</span>
@@ -33,6 +43,12 @@ header:
 	- <span style="font-size:18px;">[Auxiliary Learning by Implicit Differentiation](https://avivnavon.github.io/AuxiLearn/).</span>
 
 ### Publications
+
+<span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465)</span><br>
+<span style="font-size:17px;"> A. Navon, A. Shamsian, Y. Segal-Feldman, N. Glazer, G. Hetz, J. Keshet</span><br>
+<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2025)_.</span><br>
+<!-- --- -->
+
 
 <span style="font-size:18px;">[Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869)</span><br>
 <span style="font-size:17px;"> Y. Segal-Feldman, A. Shamsian, A. Navon, G. Hetz, J. Keshet</span><br>
@@ -105,6 +121,14 @@ header:
 <span style="font-size:18px;">_Electronic Journal of Statistics, EJS 2020_.</span><br>
 
 ### Preprints
+
+<span style="font-size:18px;">[Go Beyond Your Means: Unlearning with Per-Sample Gradient Orthogonalization](https://arxiv.org/abs/2503.02312)</span><br>
+<span style="font-size:17px;"> A. Shamsian, E. Shaar, A. Navon, G. Chechik, E. Fetaya </span><br>
+<span style="font-size:18px;"> _Preprint, 2025_.</span><br>
+
+<span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
+<span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
+<span style="font-size:18px;"> _Preprint, 2024_.</span><br>
 
 <span style="font-size:18px;">[Learning Discrete Weights and Activations Using the Local Reparameterization Trick](https://arxiv.org/abs/2307.01683)</span><br>
 <span style="font-size:17px;"> G. Berger, A. Navon, E. Fetaya </span><br>
