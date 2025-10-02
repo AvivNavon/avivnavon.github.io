@@ -5,6 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+<span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
+<span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
+<span style="font-size:18px;"> _IEEE ASRU, 2025_.</span><br>
+<span style="font-size:.8em;">
+  [[paper]](https://arxiv.org/pdf/2409.08107) 
+  [[code]](https://github.com/aiola-lab/whisper-ner) 
+  [[demo]](https://huggingface.co/spaces/aiola/whisper-ner-v1) 
+  [[models]](https://huggingface.co/collections/aiola/whisperner-6723f14506f3662cf3a73df2)
+</span>
 
 <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, Y. Segal-Feldman, N. Glazer, G. Hetz, J. Keshet</span><br>
@@ -101,8 +110,6 @@ author_profile: true
 <span style="font-size:18px;">[Personalized Federated Learning using Hypernetworks](https://arxiv.org/abs/2103.04628)</span><br>
 <span style="font-size:17px;"> A. Shamsian, A. Navon, G. Chechik, E. Fetaya </span><br>
 <span style="font-size:18px;"> _International Conference on Machine Learning, ICML, 2021_.</span><br>
-<b>Personalized Federated Learning using Hypernetworks.</b>
-<br>ICML, 2021.<br>
 <span style="font-size:.8em;">
 [[paper]](https://arxiv.org/abs/2103.04628) 
 [[project page]](https://AvivSham.github.io/pfedhn/)
@@ -169,16 +176,6 @@ author_profile: true
 <span style="font-size:18px;">[Go Beyond Your Means: Unlearning with Per-Sample Gradient Orthogonalization](https://arxiv.org/abs/2503.02312)</span><br>
 <span style="font-size:17px;"> A. Shamsian, E. Shaar, A. Navon, G. Chechik, E. Fetaya </span><br>
 <span style="font-size:18px;"> _Preprint, 2025_.</span><br>
-
-<span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
-<span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
-<span style="font-size:18px;"> _Preprint, 2024_.</span><br>
-<span style="font-size:.8em;">
-  [[paper]](https://arxiv.org/pdf/2409.08107) 
-  [[code]](https://github.com/aiola-lab/whisper-ner) 
-  [[demo]](https://huggingface.co/spaces/aiola/whisper-ner-v1) 
-  [[models]](https://huggingface.co/collections/aiola/whisperner-6723f14506f3662cf3a73df2)
-</span>
 
 <span style="font-size:18px;">[Learning Discrete Weights and Activations Using the Local Reparameterization Trick](https://arxiv.org/abs/2307.01683)</span><br>
 <span style="font-size:17px;"> G. Berger, A. Navon, E. Fetaya </span><br>

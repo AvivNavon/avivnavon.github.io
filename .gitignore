@@ -4,3 +4,10 @@ _site
 Gemfile.lock
 .DS_Store
 .idea
+.bundle/
+vendor/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.ruby-version
