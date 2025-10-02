@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+
 <span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
 <span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
 <span style="font-size:18px;"> _IEEE ASRU, 2025_.</span><br>

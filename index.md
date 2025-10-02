@@ -44,6 +44,11 @@ My work spans the development of novel IP, applied research, and publications in
 
 ### Publications
 
+<span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
+<span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
+<span style="font-size:18px;"> _IEEE ASRU, 2024_.</span><br>
+<!-- --- -->
+
 <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, Y. Segal-Feldman, N. Glazer, G. Hetz, J. Keshet</span><br>
 <span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2025)_.</span><br>
@@ -125,10 +130,6 @@ My work spans the development of novel IP, applied research, and publications in
 <span style="font-size:18px;">[Go Beyond Your Means: Unlearning with Per-Sample Gradient Orthogonalization](https://arxiv.org/abs/2503.02312)</span><br>
 <span style="font-size:17px;"> A. Shamsian, E. Shaar, A. Navon, G. Chechik, E. Fetaya </span><br>
 <span style="font-size:18px;"> _Preprint, 2025_.</span><br>
-
-<span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
-<span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
-<span style="font-size:18px;"> _Preprint, 2024_.</span><br>
 
 <span style="font-size:18px;">[Learning Discrete Weights and Activations Using the Local Reparameterization Trick](https://arxiv.org/abs/2307.01683)</span><br>
 <span style="font-size:17px;"> G. Berger, A. Navon, E. Fetaya </span><br>
