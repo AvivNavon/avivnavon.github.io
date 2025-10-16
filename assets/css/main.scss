@@ -1,0 +1,222 @@
+---
+# Only the main Sass file needs front matter
+---
+
+@charset "utf-8";
+
+/* ============================================================
+   Minimal Mistakes imports
+   ============================================================ */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin first
+@import "minimal-mistakes"; // theme partials
+
+/* ============================================================
+   Shared dark mode overrides (used for both OS + manual dark)
+   ============================================================ */
+@mixin dark-overrides {
+  /* Header bar */
+  .masthead {
+    background-color: #0a0c10 !important;
+    border-bottom: 1px solid #1b1f2a;
+  }
+
+  /* Site title and nav links */
+  .site-title,
+  .masthead__menu-item a {
+    color: #eaeaea !important;
+  }
+
+  .masthead__menu-item a:hover,
+  .masthead__menu-item a:focus {
+    color: #ffffff !important;
+  }
+
+  /* Search toggle + field */
+  .search__toggle,
+  .search__toggle svg {
+    color: #e6e6e6 !important;
+    fill: #e6e6e6 !important;
+    background-color: #1a1a1a !important;
+  }
+
+  .search-input {
+    background-color: #1a1a1a !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #333 !important;
+  }
+
+  /* Greedy nav background */
+  .greedy-nav {
+    background-color: #0a0c10 !important;
+  }
+
+  /* Content containers */
+  .page,
+  .page__inner-wrap,
+  .archive,
+  .sidebar,
+  .notice,
+  .toc {
+    background: #111318 !important;
+    color: #e6e6e6 !important;
+    border-color: #1b1f2a !important;
+  }
+
+  /* Footer */
+  .page__footer {
+    background: #0a0c10 !important;
+    border-top: 1px solid #1b1f2a;
+  }
+
+  /* Buttons */
+  .btn,
+  .btn--primary {
+    background: #1b232e !important;
+    color: #e6e6e6 !important;
+    border-color: #2a3444 !important;
+  }
+
+  /* Links */
+  a {
+    color: #9ecbff !important;
+  }
+  a:hover {
+    color: #c5e1ff !important;
+  }
+
+  /* Code blocks */
+  pre,
+  code,
+  .highlighter-rouge {
+    background: #0a0c10 !important;
+    color: #e6e6e6 !important;
+    border-color: #1b1f2a !important;
+  }
+
+  /* Ensure title text isn’t faded */
+  .site-title a {
+    opacity: 1 !important;
+  }
+}
+
+/* ============================================================
+   OS dark preference (applies only when user hasn’t toggled)
+   ============================================================ */
+html:not([data-theme]) {
+  @media (prefers-color-scheme: dark) {
+    html, body {
+      background: #0f1115;
+      color: #e6e6e6;
+    }
+    @include dark-overrides;
+  }
+}
+
+/* ============================================================
+   Manual overrides via toggle
+   ============================================================ */
+html[data-theme="dark"] {
+  background: #0f1115 !important;
+  color: #e6e6e6 !important;
+  @include dark-overrides;
+}
+
+html[data-theme="light"] {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+/* ============================================================
+   Browser hint + transition
+   ============================================================ */
+:root {
+  color-scheme: light dark;
+}
+
+html, body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* ============================================================
+   Toggle button styling
+   ============================================================ */
+.theme-toggle {
+  position: fixed;
+  top: 12px;
+  right: 14px;
+  z-index: 9999;
+  background: transparent;
+  border: 0;
+  padding: 6px 8px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+  border-radius: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-toggle {
+    background: #0a0c10;
+  }
+}
+
+html[data-theme="dark"] .theme-toggle {
+  background: #0a0c10;
+}
+
+/* ============================================================
+   Smooth, unified theme transition
+   ============================================================ */
+
+/* Only fade top-level colors to avoid "wave" effect */
+html {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+/* Disable transitions on child elements so they update instantly */
+body,
+.page,
+.page__inner-wrap,
+.sidebar,
+.archive,
+.notice,
+.toc,
+.masthead,
+.page__footer,
+.greedy-nav,
+.btn,
+pre,
+code {
+  transition: none !important;
+}
+
+/* ============================================================
+   Unified cross-fade transition between themes
+   ============================================================ */
+
+/* Disable color transitions everywhere */
+*,
+*::before,
+*::after {
+  transition: none !important;
+}
+
+/* Add a short opacity fade on the entire viewport when theme changes */
+html::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: var(--fade-bg, #000);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  z-index: 9998;
+}
+
+/* Trigger the fade whenever the theme changes */
+html.is-transitioning::before {
+  opacity: 1;
+}
+
+/* JS helper: add/remove .is-transitioning on toggle */

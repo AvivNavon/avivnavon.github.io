@@ -1,0 +1,42 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const root = document.documentElement;
+  const KEY = 'theme';
+  const btn = document.getElementById('theme-toggle');
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+
+  // Initialize theme: saved > OS > default
+  const saved = localStorage.getItem(KEY);
+  if (saved === 'dark' || saved === 'light') {
+    root.setAttribute('data-theme', saved);
+  } else {
+    root.setAttribute('data-theme', mq.matches ? 'dark' : 'light');
+  }
+
+  // When user clicks the toggle
+  btn?.addEventListener('click', function() {
+    const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    localStorage.setItem(KEY, next);
+  });
+
+  // Follow OS preference only if no saved theme
+  mq.addEventListener('change', e => {
+    if (!localStorage.getItem(KEY)) {
+      root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+    }
+  });
+});
+</script>
+
+<!-- Dark mode: apply saved theme early -->
+<script>
+(function() {
+  const key = 'theme';
+  const saved = localStorage.getItem(key);
+  if (saved === 'dark' || saved === 'light') {
+    document.documentElement.setAttribute('data-theme', saved);
+  }
+})();
+</script>
+
