@@ -140,20 +140,68 @@ html, body {
 /* ============================================================
    Toggle button styling
    ============================================================ */
+// .theme-toggle {
+//   position: fixed;
+//   top: 12px;
+//   right: 14px;
+//   z-index: 9999;
+//   background: transparent;
+//   border: 0;
+//   padding: 6px 8px;
+//   font-size: 18px;
+//   line-height: 1;
+//   cursor: pointer;
+//   color: inherit;
+//   border-radius: 8px;
+// }
+
+/* Reset toggle to ignore theme button styles and position it top-left */
 .theme-toggle {
+  /* wipe inherited button styles from the theme */
+  all: unset;                 /* removes borders, backgrounds, etc. */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  /* pin near the site title */
   position: fixed;
-  top: 12px;
-  right: 14px;
-  z-index: 9999;
-  background: transparent;
-  border: 0;
-  padding: 6px 8px;
-  font-size: 18px;
+  top: calc(12px + env(safe-area-inset-top, 0));
+  left: calc(14px + env(safe-area-inset-left, 0));
+  z-index: 10000;
+
+  width: 32px;
+  height: 32px;
   line-height: 1;
+  font-size: 18px;
   cursor: pointer;
+  border-radius: 9999px;
   color: inherit;
-  border-radius: 8px;
+  background: transparent;
 }
+
+.theme-toggle:focus { outline: none; box-shadow: none; }
+
+/* Subtle chip background in dark mode so it’s visible on photos */
+@media (prefers-color-scheme: dark) {
+  .theme-toggle { background: rgba(10, 12, 16, 0.7); }
+}
+html[data-theme="dark"] .theme-toggle { background: rgba(10, 12, 16, 0.7); }
+
+/* Keep it out of the way on small screens if you want extra offset */
+@media (max-width: 768px) {
+  .theme-toggle {
+    top: calc(16px + env(safe-area-inset-top, 0));
+    left: calc(16px + env(safe-area-inset-left, 0));
+  }
+}
+
+
+/* Optional darker background in dark mode */
+@media (prefers-color-scheme: dark) {
+  .theme-toggle { background: #0a0c10; }
+}
+html[data-theme="dark"] .theme-toggle { background: #0a0c10; }
+
 
 @media (prefers-color-scheme: dark) {
   .theme-toggle {
