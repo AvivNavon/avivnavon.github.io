@@ -73,3 +73,71 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 </script>
 
+<!-- <script>
+(function () {
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  function placeToggle() {
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const titleLink = document.querySelector('.masthead .site-title a, .masthead .site-title');
+
+    if (isMobile && titleLink && btn.parentElement !== titleLink.parentElement) {
+      // Insert the button right after the title link
+      titleLink.insertAdjacentElement('afterend', btn);
+      btn.classList.add('in-header');
+    } else if (!isMobile && btn.classList.contains('in-header')) {
+      // Put it back to floating position on desktop
+      document.body.appendChild(btn);
+      btn.classList.remove('in-header');
+    }
+  }
+
+  placeToggle();
+  window.addEventListener('resize', placeToggle);
+})();
+</script> -->
+
+<script>
+(function () {
+  const btn = document.getElementById('theme-toggle');
+  if (!btn) return;
+
+  // the floating style we want on desktop
+  const floatingStyle = `
+    position: fixed;
+    top: 12px;
+    left: 14px;
+    z-index: 10000;
+    width: 32px; height: 32px;
+    line-height: 1; font-size: 18px;
+    cursor: pointer; border-radius: 9999px;
+    color: inherit; background: transparent;
+  `;
+
+  function placeToggle() {
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const titleLink =
+      document.querySelector('.masthead .site-title a') ||
+      document.querySelector('.masthead .site-title');
+
+    if (isMobile && titleLink) {
+      // put it right AFTER your name
+      titleLink.insertAdjacentElement('afterend', btn);
+      btn.classList.add('in-header');
+      btn.removeAttribute('style');          // ← kill fixed inline style
+    } else {
+      // float it on desktop in top-left
+      document.body.appendChild(btn);
+      btn.classList.remove('in-header');
+      btn.setAttribute('style', floatingStyle); // ← restore fixed inline style
+    }
+  }
+
+  placeToggle();
+  window.addEventListener('resize', placeToggle);
+})();
+</script>
+
+
+

@@ -268,3 +268,121 @@ html.is-transitioning::before {
 }
 
 /* JS helper: add/remove .is-transitioning on toggle */
+
+/* When floating (desktop) — keep your current style */
+/* Toggle inside header (no floating) */
+.theme-toggle {
+  all: unset;                 /* ignore default button styling */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;           /* space after your name */
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: inherit;
+  background: transparent;
+  vertical-align: middle;
+}
+
+/* Optional: subtle chip bg so it’s visible on dark/hero images */
+@media (prefers-color-scheme: dark) {
+  .theme-toggle { background: rgba(10,12,16,0.6); }
+}
+html[data-theme="dark"] .theme-toggle { background: rgba(10,12,16,0.6); }
+
+/* Slight spacing helper for the li container */
+.theme-toggle-item { margin-left: 4px; }
+
+
+/* When we push it into the header on mobile */
+.theme-toggle.in-header {
+  all: unset;                 /* strip button look */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;           /* space from your name */
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: inherit;
+  background: transparent;
+  position: static;           /* no fixed positioning inside header */
+}
+
+/* Optional: give it a subtle chip bg in dark so it’s visible over photos */
+@media (prefers-color-scheme: dark) {
+  .theme-toggle.in-header { background: rgba(10,12,16,0.6); }
+}
+html[data-theme="dark"] .theme-toggle.in-header { background: rgba(10,12,16,0.6); }
+
+
+/* Floating (desktop) rules are delivered inline by JS */
+
+/* When inside header on mobile */
+.theme-toggle.in-header {
+  all: unset;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  margin-left: 8px;     /* space to the right of your name */
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: inherit;
+  background: transparent;
+  vertical-align: middle;
+}
+
+/* Optional: subtle chip bg so it’s visible over photos */
+@media (prefers-color-scheme: dark) {
+  .theme-toggle.in-header { background: rgba(10,12,16,0.6); }
+}
+html[data-theme="dark"] .theme-toggle.in-header { background: rgba(10,12,16,0.6); }
+
+/* Floating toggle */
+.theme-toggle {
+  all: unset;                 /* ignore theme button styles */
+  position: fixed;
+  top: 10px;
+  left: 12px;
+  z-index: 10000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  color: inherit;
+  border-radius: 9999px;
+  background: transparent;
+}
+
+/* Subtle chip bg so it’s visible on dark/hero images (optional) */
+@media (prefers-color-scheme: dark) { .theme-toggle { background: rgba(10,12,16,0.6); } }
+html[data-theme="dark"] .theme-toggle { background: rgba(10,12,16,0.6); }
+
+/* --- Make room for the floating button on mobile --- */
+@media (max-width: 768px) {
+  /* give the header inner wrap a left pad so the title shifts right */
+  .masthead .masthead__inner-wrap {
+    padding-left: 52px;   /* ≈ button width (32) + left gap (12) + a little buffer */
+  }
+  /* if your title still nudges under it, add a small margin */
+  .masthead .site-title { margin-left: 6px; }
+}
+
+.site-title {
+  visibility: hidden;
+}
