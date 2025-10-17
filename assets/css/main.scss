@@ -386,3 +386,38 @@ html[data-theme="dark"] .theme-toggle { background: rgba(10,12,16,0.6); }
 .site-title {
   visibility: hidden;
 }
+
+/* Make the header a positioned container */
+.masthead .masthead__inner-wrap { position: relative; }
+
+/* Toggle lives inside header, top-left, and scrolls away with it */
+.theme-toggle.in-header {
+  all: unset;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  z-index: 10;                /* above background, below menu */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  border-radius: 9999px;
+  color: inherit;
+  background: transparent;
+}
+
+/* Optional: subtle chip bg in dark so it’s visible over photos */
+@media (prefers-color-scheme: dark) {
+  .theme-toggle.in-header { background: rgba(10,12,16,0.6); }
+}
+html[data-theme="dark"] .theme-toggle.in-header { background: rgba(10,12,16,0.6); }
+
+/* Give the title some room on small screens so nothing overlaps */
+@media (max-width: 768px) {
+  .masthead .masthead__inner-wrap { padding-left: 44px; } /* ~ icon width + left gap */
+  .masthead .site-title { margin-left: 4px; }
+}

@@ -139,5 +139,17 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('theme-toggle');
+  const header = document.querySelector('.masthead .masthead__inner-wrap');
+  if (btn && header && btn.parentElement !== header) {
+    header.appendChild(btn);        // put it inside the header
+    btn.removeAttribute('style');   // kill any inline fixed styles
+    btn.classList.add('in-header'); // use the CSS below
+  }
+});
+</script>
+
 
 
