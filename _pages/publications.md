@@ -8,7 +8,7 @@ author_profile: true
 
 <span style="font-size:18px;">[Beyond Transcription: Mechanistic Interpretability in ASR](https://arxiv.org/abs/2508.15882)</span><br>
 <span style="font-size:17px;"> N. Glazer, Y. Segal-Feldman, H. Segev, A. Shamsian, A. Buchnick, G. Hetz, E. Fetaya, J. Keshet, A. Navon </span><br>
-<span style="font-size:18px;"> AAAI, 2026_.</span><br>
+<span style="font-size:18px;"> _AAAI, 2026_.</span><br>
 <span style="font-size:.8em;">
   [[paper]](https://arxiv.org/pdf/2508.15882) 
 </span>
@@ -16,7 +16,7 @@ author_profile: true
 
 <span style="font-size:18px;">[GradMetaNet: An Equivariant Architecture for Learning on Gradients](https://arxiv.org/abs/2507.01649)</span><br>
 <span style="font-size:17px;"> Y. Gelberg, Y. Eitan, A. Navon, A. Shamsian, T. Putterman, M. Bronstein, H. Maron </span><br>
-<span style="font-size:18px;"> NeurIPS, 2025_.</span><br>
+<span style="font-size:18px;"> _NeurIPS, 2025_.</span><br>
 <span style="font-size:.8em;">
   [[paper]](https://arxiv.org/pdf/2507.01649) 
 </span>
@@ -35,7 +35,7 @@ author_profile: true
 
 <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, Y. Segal-Feldman, N. Glazer, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2025)_.</span><br>
+<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech), 2025_.</span><br>
 <span style="font-size:.8em;">
 [[paper]](https://arxiv.org/abs/2505.14465)
 [[demo]](https://aiola-lab.github.io/flow-tse/)
@@ -45,7 +45,7 @@ author_profile: true
 
 <span style="font-size:18px;">[Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869)</span><br>
 <span style="font-size:17px;"> Y. Segal-Feldman, A. Shamsian, A. Navon, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)_.</span><br>
+<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025_.</span><br>
 <span style="font-size:.8em;">
 [[paper]](https://arxiv.org/pdf/2409.15869)
 [[code]](https://github.com/aiola-lab/whisper-medusa)
@@ -56,7 +56,7 @@ author_profile: true
 
 <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649)</span><br>
 <span style="font-size:17px;"> A. Shamsian, A. Navon, N. Glazer, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2024)_.</span><br>
+<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech), 2024_.</span><br>
 <span style="font-size:.8em;">
 [[paper]](https://arxiv.org/pdf/2406.02649)
 </span>
@@ -80,7 +80,7 @@ author_profile: true
 
 <span style="font-size:18px;">[Open-vocabulary Keyword-spotting with Adaptive Instance Normalization](https://arxiv.org/abs/2309.08561)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, N. Glazer, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024)_.</span><br>
+<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2024_.</span><br>
 <span style="font-size:.8em;">
 [[paper]](https://arxiv.org/abs/2301.13501)
 </span>
