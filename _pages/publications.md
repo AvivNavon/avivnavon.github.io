@@ -6,6 +6,22 @@ author_profile: true
 ---
 
 
+<span style="font-size:18px;">[Beyond Transcription: Mechanistic Interpretability in ASR](https://arxiv.org/abs/2508.15882)</span><br>
+<span style="font-size:17px;"> N. Glazer, Y. Segal-Feldman, H. Segev, A. Shamsian, A. Buchnick, G. Hetz, E. Fetaya, J. Keshet, A. Navon </span><br>
+<span style="font-size:18px;"> AAAI, 2026_.</span><br>
+<span style="font-size:.8em;">
+  [[paper]](https://arxiv.org/pdf/2508.15882) 
+</span>
+<!-- --- -->
+
+<span style="font-size:18px;">[GradMetaNet: An Equivariant Architecture for Learning on Gradients](https://arxiv.org/abs/2507.01649)</span><br>
+<span style="font-size:17px;"> Y. Gelberg, Y. Eitan, A. Navon, A. Shamsian, T. Putterman, M. Bronstein, H. Maron </span><br>
+<span style="font-size:18px;"> NeurIPS, 2025_.</span><br>
+<span style="font-size:.8em;">
+  [[paper]](https://arxiv.org/pdf/2507.01649) 
+</span>
+<!-- --- -->
+
 <span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
 <span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
 <span style="font-size:18px;"> _IEEE ASRU, 2025_.</span><br>
@@ -15,6 +31,7 @@ author_profile: true
   [[demo]](https://huggingface.co/spaces/aiola/whisper-ner-v1) 
   [[models]](https://huggingface.co/collections/aiola/whisperner-6723f14506f3662cf3a73df2)
 </span>
+<!-- --- -->
 
 <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, Y. Segal-Feldman, N. Glazer, G. Hetz, J. Keshet</span><br>

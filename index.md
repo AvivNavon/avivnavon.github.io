@@ -21,8 +21,9 @@ My work spans the development of novel IP, applied research, and publications in
 </span>
 
 
-### News
+<!-- ### News
 
+- <span style="font-size:18px;">[Beyond Transcription: Mechanistic Interpretability in ASR](https://arxiv.org/abs/2508.15882) accepted at **AAAI 2026**.</span>
 - <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465) accepted at **InterSpeech 2025**.</span>
 - <span style="font-size:18px;">[Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869) accepted at **ICASSP 2025**.</span>
 - <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649) accepted at **InterSpeech 2024**.</span>
@@ -40,29 +41,40 @@ My work spans the development of novel IP, applied research, and publications in
 	- <span style="font-size:18px;">[GP-Tree: A Gaussian Process Classifier for Few-Shot Incremental Learning](https://arxiv.org/abs/2102.07868).</span>
 - <span style="font-size:18px;">Two papers to be presented at **ICLR 2021:**</span>
 	- <span style="font-size:18px;">[Learning the Pareto Front with Hypernetworks](https://avivnavon.github.io/ParetoHN/).</span>
-	- <span style="font-size:18px;">[Auxiliary Learning by Implicit Differentiation](https://avivnavon.github.io/AuxiLearn/).</span>
+	- <span style="font-size:18px;">[Auxiliary Learning by Implicit Differentiation](https://avivnavon.github.io/AuxiLearn/).</span> -->
 
 ### Publications
 
+<span style="font-size:18px;">[Beyond Transcription: Mechanistic Interpretability in ASR](https://arxiv.org/abs/2508.15882)</span><br>
+<span style="font-size:17px;"> N. Glazer, Y. Segal-Feldman, H. Segev, A. Shamsian, A. Buchnick, G. Hetz, E. Fetaya, J. Keshet, A. Navon </span><br>
+<span style="font-size:18px;"> _AAAI, 2026_.</span><br>
+<!-- --- -->
+
+<span style="font-size:18px;">[GradMetaNet: An Equivariant Architecture for Learning on Gradients
+](https://arxiv.org/abs/2507.01649)</span><br>
+<span style="font-size:17px;"> Y. Gelberg, Y. Eitan, A. Navon, A. Shamsian, T. Putterman, M. Bronstein, H. Maron </span><br>
+<span style="font-size:18px;"> _NeurIPS, 2025_.</span><br>
+<!-- --- -->
+
 <span style="font-size:18px;">[WhisperNER: Unified Open Named Entity and Speech Recognition](https://arxiv.org/abs/2409.08107)</span><br>
 <span style="font-size:17px;"> G. Ayache, M. Pirchi, A. Navon, A. Shamsian, G. Hetz, J. Keshet </span><br>
-<span style="font-size:18px;"> _IEEE ASRU, 2024_.</span><br>
+<span style="font-size:18px;"> _IEEE ASRU, 2025_.</span><br>
 <!-- --- -->
 
 <span style="font-size:18px;">[FlowTSE: Target Speaker Extraction with Flow Matching](https://arxiv.org/abs/2505.14465)</span><br>
 <span style="font-size:17px;"> A. Navon, A. Shamsian, Y. Segal-Feldman, N. Glazer, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2025)_.</span><br>
+<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech), 2025_.</span><br>
 <!-- --- -->
 
 
 <span style="font-size:18px;">[Whisper in Medusa's Ear: Multi-head Efficient Decoding for Transformer-based ASR](https://arxiv.org/abs/2409.15869)</span><br>
 <span style="font-size:17px;"> Y. Segal-Feldman, A. Shamsian, A. Navon, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2025)_.</span><br>
+<span style="font-size:18px;"> _International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025_.</span><br>
 <!-- --- -->
 
 <span style="font-size:18px;">[Keyword-Guided Adaptation of Automatic Speech Recognition](https://arxiv.org/abs/2406.02649)</span><br>
 <span style="font-size:17px;"> A. Shamsian, A. Navon, N. Glazer, G. Hetz, J. Keshet</span><br>
-<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech 2024)_.</span><br>
+<span style="font-size:18px;"> _Conference of the International Speech Communication Association (InterSpeech), 2024_.</span><br>
 <!-- --- -->
 
 <span style="font-size:18px;">[Equivariant Deep Weight Space Alignment](https://arxiv.org/abs/2310.13397)</span><br>
