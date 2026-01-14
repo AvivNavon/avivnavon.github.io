@@ -11,13 +11,7 @@ header:
 # About me
 
 <span style="font-size:20px;">
-I hold a PhD from Bar-Ilan University, where I was jointly supervised by 
-Prof. Gal Chechik and Prof. Ethan Fetaya. My academic research mainly focused on <b>multitask learning</b> and <b>equivariant weight space networks</b>, 
-with a broader interest in principled approaches to deep learning.
-<br><br>
-Currently, I am the <b>Research Team Lead</b> at <a href="https://www.aiola.ai/">aiOla</a>, 
-where I lead initiatives in <b>speech understanding</b> and <b>speech synthesis</b>. 
-My work spans the development of novel IP, applied research, and publications in conversational AI, with a strong focus on bridging cutting-edge research and real-world deployment.
+I am a research scientist with a PhD, working on multitask learning and equivariant weight-space networks, with broader interests in principled approaches to deep learning. I have over 10 years of industry experience across domains, including speech, time-series forecasting, and LLMs. Currently, I am an AI researcher at AAI.
 </span>
 
 
