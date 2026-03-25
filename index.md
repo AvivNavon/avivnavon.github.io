@@ -2,7 +2,7 @@
 title: 'Aviv Navon'
 layout: single
 author_profile: true
-excerpt: 'ML Researcher'
+excerpt: 'AI Research Scientist'
 header:
   overlay_image: /assets/images/background_mountain.jpg
   overlay_filter: 0.35
@@ -11,7 +11,7 @@ header:
 # About me
 
 <span style="font-size:20px;">
-I am a research scientist with a PhD, working on multitask learning and equivariant weight-space networks, with broader interests in principled approaches to deep learning. I have over 10 years of industry experience across domains, including speech, time-series forecasting, and LLMs. Currently, I am an AI researcher at AAI.
+I’m a research scientist working on LLM post-training and reinforcement learning. I did my PhD in AI on multitask learning and equivariant weight-space networks, and have over 10 years of industry experience across speech, NLP, and time-series forecasting. I’m broadly interested in principled approaches to deep learning. Currently, I’m an AI researcher at doubleAI.
 </span>
 
 
