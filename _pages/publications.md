@@ -6,6 +6,14 @@ author_profile: true
 ---
 
 
+<span style="font-size:18px;">[PromptEvolver: Prompt Inversion through Evolutionary Optimization in Natural-Language Space](https://arxiv.org/abs/2604.06061)</span><br>
+<span style="font-size:17px;"> A. Buchnick, A. Shamsian, A. Navon, E. Fetaya </span><br>
+<span style="font-size:18px;"> _WACV, 2027_.</span><br>
+<span style="font-size:.8em;">
+  [[paper]](https://arxiv.org/pdf/2604.06061) 
+</span>
+<!-- --- -->
+
 <span style="font-size:18px;">[Beyond Transcription: Mechanistic Interpretability in ASR](https://arxiv.org/abs/2508.15882)</span><br>
 <span style="font-size:17px;"> N. Glazer, Y. Segal-Feldman, H. Segev, A. Shamsian, A. Buchnick, G. Hetz, E. Fetaya, J. Keshet, A. Navon </span><br>
 <span style="font-size:18px;"> _AAAI, 2026_.</span><br>
